@@ -50,49 +50,49 @@
 Файл: [ПР8.cpp](https://github.com/ARK-STD-B1/SiAOD/blob/main/%D0%9F%D0%A08.cpp) </br>
 
 <br><h3>Практическая работа № 9  
-  	&#9881; WORK IN PROGRESS	&#9881;</h3>
+  	&#9672; COMPLETE	&#9672;</h3>
 «Линейный список Очередь»  
 Вариант:   
-Файл: </br>
+Файл: [ПР9.cpp](https://github.com/ARK-STD-B1/SiAOD/blob/main/%D0%9F%D0%A09.cpp)</br>
 
 <br><h3>Практическая работа № 10  
-  	&#9881; WORK IN PROGRESS	&#9881;</h3>
+  	&#9672; COMPLETE	&#9672;</h3>
 «Бинарное дерево поиска. AVL дерево»  
-Вариант:   
-Файл: </br>
+Вариант: 
+Файл: [ПР10.cpp](https://github.com/ARK-STD-B1/SiAOD/blob/main/%D0%9F%D0%A010.cpp)</br>
 
 <br><h3>Практическая работа № 11  
-  	&hellip; COMING SOON 	&hellip;</h3>
+  	&#9672; COMPLETE	&#9672;</h3>
 «Хеширование - прямой доступ к данным»  
-Вариант:   
-Файл: </br>
+Вариант: 
+Файл: [ПР11.cpp](https://github.com/ARK-STD-B1/SiAOD/blob/main/%D0%9F%D0%A011.cpp)</br>
 
 <br><h3>Практическая работа № 12  
-    	&hellip; COMING SOON	&hellip;</h3>
+    &#9672; COMPLETE	&#9672;</h3>
 «Внешние структуры данных - файлы  и алгоритмы их обработки»  
-Вариант:   
-Файл: </br>
+Вариант: 
+Файл: [ПР12.cpp](https://github.com/ARK-STD-B1/SiAOD/blob/main/%D0%9F%D0%A012.cpp)</br>
 
 <br><h3>Практическая работа № 13  
-    	&hellip; COMING SOON	&hellip;</h3>
+    	&#9881; WORK IN PROGRESS	&#9881;</h3>
 «Основные алгоритмы работы с графами»  
 Вариант:   
 Файл: </br>
 
 <br><h3>Практическая работа № 14  
-    	&hellip; COMING SOON	&hellip;</h3>
+    	&#9881; WORK IN PROGRESS	&#9881;</h3>
 «Алгоритмы сжатия и кодирования данных»  
 Вариант:   
 Файл: </br>
 
 <br><h3>Практическая работа № 15  
-    	&hellip; COMING SOON	&hellip;</h3>
+    	&#9881; WORK IN PROGRESS	&#9881;</h3>
 «Стратегии и методы построения алгоритмов»  
 Вариант:   
 Файл: </br>
 
 <br><h3>Практическая работа № 16  
-    	&hellip; COMING SOON	&hellip;</h3>
+    &#9881; WORK IN PROGRESS	&#9881;</h3>
 «Метод линейного программирования»  
 Вариант:   
 Файл: </br>
