@@ -3,40 +3,28 @@
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
-
 using namespace std;
-
 void massivchik ( long size, int* array)
 {
-
    srand(time(0));
-
    for (long i = 0; i < size; i++)
    {
        array[i] = 1 + rand() % 9;
    }
-
-    cout <<"Ñîçäàíèå ìàññèâà çàêîí÷åííî. Îæèäàéòå..."<< endl;
-
+    cout <<"Ã‘Ã®Ã§Ã¤Ã Ã­Ã¨Ã¥ Ã¬Ã Ã±Ã±Ã¨Ã¢Ã  Ã§Ã ÃªÃ®Ã­Ã·Ã¥Ã­Ã­Ã®. ÃŽÃ¦Ã¨Ã¤Ã Ã©Ã²Ã¥..."<< endl;
 }
-
 int main()
 {
-
 	setlocale(0,"");
-
 	long N = 500000;
 	int a[N];
-
 	cout <<""<< endl;
-
 	massivchik( N, a);
 	unsigned long counter=0;
 	int buff = 0;
 	DWORD time1 = ::GetTickCount();
 	int i, j, step;
     int tmp;
-
     for (step = N / 2; step > 0; step /= 2)
         for (i = step; i < N; i++)
         {
@@ -47,23 +35,17 @@ int main()
                 {
                     a[j] = a[j - step];
                 }
-
                 else
                 {
                     break;
                 }
-
             }
             a[j] = tmp;
         }
-
 	DWORD time2 = ::GetTickCount() - time1;
-
 	cout << endl;
-	cout<<"Ñïàñèáî çà îæèäàíèå! ^_^"<<endl;
-	cout<<"Âðåìåííàÿ ñëîæíîñòü ñîðòèðîâêè ðàâíà: "<<time2<<"ìñ"<<endl;
-	cout<<"Êîë-âî îïåðàöèé ñðàâíåíèÿ è ïåðåìåùåíèÿ: "<<counter*2-N<<endl;
-
+	cout<<"Ã‘Ã¯Ã Ã±Ã¨Ã¡Ã® Ã§Ã  Ã®Ã¦Ã¨Ã¤Ã Ã­Ã¨Ã¥! ^_^"<<endl;
+	cout<<"Ã‚Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã Ã¿ Ã±Ã«Ã®Ã¦Ã­Ã®Ã±Ã²Ã¼ Ã±Ã®Ã°Ã²Ã¨Ã°Ã®Ã¢ÃªÃ¨ Ã°Ã Ã¢Ã­Ã : "<<time2<<"Ã¬Ã±"<<endl;
+	cout<<"ÃŠÃ®Ã«-Ã¢Ã® Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã© Ã±Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿ Ã¨ Ã¯Ã¥Ã°Ã¥Ã¬Ã¥Ã¹Ã¥Ã­Ã¨Ã¿: "<<counter*2-N<<endl;
 	return 0;
-
 }
