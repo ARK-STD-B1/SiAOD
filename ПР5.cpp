@@ -1,24 +1,18 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-
     setlocale(0,"");
-
     int key, n, i, j, buff;
-
-    cout<<"Ðàçìåð ìàññèâà: ";
+    cout<<"ÃÃ Ã§Ã¬Ã¥Ã° Ã¬Ã Ã±Ã±Ã¨Ã¢Ã : ";
     cin>>n;
-
     int* arr=new int[n];
     for (int i=0;i<n;i++)
     {
         arr[i]=rand()%10000;
     }
     cout<<endl;
-
     for (i=1;i<n;i++)
     {
         buff=arr[i];
@@ -27,20 +21,16 @@ int main()
 
         arr[j+1]=buff;
     }
-
     for (int i=0;i<n;i++)
     {
         cout<<arr[i]<<" ";
     }
-
-    cout<<endl<<"Èñêîìîå ÷èñëî: ";
+    cout<<endl<<"ÃˆÃ±ÃªÃ®Ã¬Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®: ";
     cin>>key;
-
     bool flag = false;
     int l = 0;
     int r = n-1;
     int m;
-
     while ((l<=r) && (flag!=true))
         {
         m=(l+r)/2;
@@ -58,7 +48,6 @@ int main()
             l=m+1;
         }
     }
-
-    if (flag) cout<<"Ïîçèöèÿ ÷èñëà: "<<m+1<<endl;
+    if (flag) cout<<"ÃÃ®Ã§Ã¨Ã¶Ã¨Ã¿ Ã·Ã¨Ã±Ã«Ã : "<<m+1<<endl;
     return 0;
 }
